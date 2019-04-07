@@ -1,22 +1,6 @@
 <template>
   <div class="home">
-    <div class="main">
-      <div class="notification">
-        <span>借用平台上线啦！借用平台上线啦！借用平台上线啦!</span>
-      </div>
-      <div class="entry">
-        <div class="item material">
-          <span>物品领取</span>
-        </div>
-        <div class="item">
-           <span>共享图书</span>
-        </div>
-        <div class="item">
-           <span>共享雨伞</span>
-        </div>
-      </div>
-    </div>
-    <BottomNav/>
+    home
   </div>
 </template>
 

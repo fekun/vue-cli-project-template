@@ -1,26 +1,6 @@
 <template>
   <div class="about">
-    <div class="banner">
-      <img src="../assets/me/bg_wd_top@3x.png" alt="banner">
-      <div class="intro">
-        <div class="item name">小菜鸟</div>
-        <div class="item department">2f 研发部</div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="item">
-        <div class="icon-id">
-          <img src="../assets/me/icon_pencil@3x.png" alt>
-        </div>
-        <div class="msg-nav">
-          <div class="title">物品领取记录1</div>
-          <div class="arrow">
-            <img src="../assets/me/icon_next@3x.png" alt>
-          </div>
-        </div>
-      </div>
-    </div>
-    <BottomNav/>
+    me
   </div>
 </template>
 <script>
