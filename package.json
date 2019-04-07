@@ -49,7 +49,7 @@
     "webpack-hot-middleware": "^2.24.3",
     "webpack-merge": "^4.2.1"
   },
-  "name": "@enhezzz/vue-cli",
+  "name": "@enhezzz/vue-cli-template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
