@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.2.3",
-    "@enhezzz/vue-cli-service": "^1.0.1",
+    "@enhezzz/vue-cli-serve": "^1.0.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.2",
     "@vue/babel-preset-jsx": "^1.0.0-beta.2",
     "babel-plugin-transform-node-env-inline": "^0.4.3",
