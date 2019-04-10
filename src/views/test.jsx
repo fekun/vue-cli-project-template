@@ -6,7 +6,7 @@ export default {
     },
     methods: {
         async click() {
-            let response = await this.$axios.get("https://www.easy-mock.com/mock/5c46cf35ecdb695a28c0d4c2/beisen/overtiem-detail")
+            let response = await this.$axios.get("https://www.easy-mock.com/mock/5c46cd90eaf31779b928ae07/example/mock")
             console.log(response)
         }
     }
