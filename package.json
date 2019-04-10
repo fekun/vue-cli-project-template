@@ -3,6 +3,7 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
+    "@enhezzz/vue-cli-serve": "^1.0.0"
   },
   "name": "@enhezzz/vue-cli-template",
   "version": "1.0.0",
