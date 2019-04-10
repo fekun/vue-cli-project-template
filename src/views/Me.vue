@@ -11,6 +11,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .about {
- 
+ background: #99CCCC;
+ height: 98vh;
 }
 </style>
