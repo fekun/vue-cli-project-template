@@ -1,7 +1,10 @@
+import style from "../assets/css/test.css"
 export default {
+    created() {
+    },
     render() {
         return (
-            <p onClick={this.click}>jsx</p>
+            <div onClick={this.click} class={style.test}>jsx</div>
         )
     },
     methods: {
