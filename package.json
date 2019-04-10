@@ -7,15 +7,15 @@
   },
   "name": "@enhezzz/vue-cli-template",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run start",
     "start": "vue-cli-serve",
     "fixLint": "standard --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vue"],
+  "author": "enehzzz",
   "license": "MIT",
-  "description": ""
+  "description": "a architecture for vue in SFC style",
+  "syntax": "template"
 }
