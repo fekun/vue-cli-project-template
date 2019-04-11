@@ -3,7 +3,8 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
-    "@enhezzz/vue-cli-serve": "^1.0.0"
+    "@enhezzz/vue-cli-serve": "^1.0.0",
+    "autoprefixer": "^9.5.1"
   },
   "name": "@enhezzz/vue-cli-template",
   "version": "1.0.0",
@@ -13,7 +14,9 @@
     "start": "vue-cli-serve",
     "fixLint": "standard --fix"
   },
-  "keywords": ["vue"],
+  "keywords": [
+    "vue"
+  ],
   "author": "enehzzz",
   "license": "MIT",
   "description": "a architecture for vue in SFC style",
