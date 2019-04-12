@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run start",
     "start": "vue-cli-serve",
+    "build": "vue-cli-build",
     "fixLint": "standard --fix"
   },
   "keywords": ["vue", "jsx"],
