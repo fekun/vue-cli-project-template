@@ -4,7 +4,8 @@
   },
   "devDependencies": {
     "@enhezzz/vue-cli-serve": "^1.0.0",
-    "autoprefixer": "^9.5.1"
+    "autoprefixer": "^9.5.1",
+    "postcss-px-to-viewport": "^1.1.0"
   },
   "name": "@enhezzz/vue-cli-template",
   "version": "1.0.0",
