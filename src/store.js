@@ -4,11 +4,11 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 const store = new Vuex.Store({
   state: {
-    token: ""
+    token: ''
   },
   mutations: {
     clearToken (state) {
-      state.token = ""
+      state.token = ''
     }
   }
 })

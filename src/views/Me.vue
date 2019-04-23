@@ -1,13 +1,12 @@
 <template>
   <div class="about">
-    me
+    me!!
   </div>
 </template>
 <script>
 export default {
-  name: "me",
- 
-};
+  name: 'Me'
+}
 </script>
 <style lang="scss" scoped>
 .about {

@@ -1,9 +1,15 @@
 <template>
   <div id="app">
-    <router-link to="/">home</router-link>
-    <router-link to="/me">me</router-link>
-    <router-link to="/request">request</router-link>
-    <router-view/>
+    <router-link to="/">
+      home
+    </router-link>
+    <router-link to="/me">
+      me
+    </router-link>
+    <router-link to="/request">
+      request
+    </router-link>
+    <router-view />
   </div>
 </template>
 

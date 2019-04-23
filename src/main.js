@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './app'
+import App from './App'
 import router from './router'
 import store from './store'
-import http from "./http/http"
+import http from './http/http'
 
 Vue.use(http)
 const app = new Vue({
