@@ -4,7 +4,7 @@ module.exports = {
       node: true
     },
     'extends': [
-      'plugin:vue/essential',
+      'plugin:vue/recommended',
       '@vue/standard'
     ],
     rules: {
@@ -15,4 +15,3 @@ module.exports = {
       parser: 'babel-eslint'
     }
   }
-  
