@@ -1,11 +1,11 @@
-import style from "../assets/css/about.css"
+import style from '../assets/css/about.scss'
 export default {
-  name: "about",
-  render() {
+  name: 'About',
+  render () {
     return (
       <div class={style.about}>
-        me
+        me!
       </div>
     )
   }
-};
+}

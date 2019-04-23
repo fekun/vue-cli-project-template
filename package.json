@@ -1,23 +1,41 @@
 {
-  "dependencies": {
-    "axios": "^0.18.0"
-  },
-  "devDependencies": {
-    "@enhezzz/vue-cli-serve": "^1.0.0",
-    "autoprefixer": "^9.5.1"
-  },
-  "name": "@enhezzz/vue-cli-template",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run start",
-    "start": "vue-cli-serve",
-    "build": "vue-cli-build",
-    "fixLint": "standard --fix"
-  },
-  "keywords": ["vue", "jsx"],
-  "author": "enhezzz",
-  "license": "MIT",
-  "description": "a architecture for vue in jsx style",
-  "syntax": "jsx"
+	"dependencies": {
+		"axios": "^0.18.0",
+		"core-js": "^3.0.1",
+		"element-ui": "^2.7.2",
+		"vue": "^2.6.10",
+		"vue-router": "^3.0.6",
+		"vuex": "^3.1.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.6.0",
+		"@vue/cli-plugin-eslint": "^3.6.0",
+		"@vue/cli-service": "^3.6.0",
+		"@vue/eslint-config-standard": "^4.0.0",
+		"autoprefixer": "^9.5.1",
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.16.0",
+		"eslint-plugin-vue": "^5.2.2",
+		"lint-staged": "^8.1.5",
+		"node-sass": "^4.11.0",
+		"sass-loader": "^7.1.0",
+		"vue-jsx-hot-loader": "^1.4.0",
+		"vue-template-compiler": "^2.6.10",
+		"webpack-chain": "^5.2.4"
+	},
+	"name": "@enhezzz/vue-cli-template",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"keywords": [
+		"vue"
+	],
+	"author": "enehzzz",
+	"license": "MIT",
+	"description": "a architecture for vue in SFC style"
 }

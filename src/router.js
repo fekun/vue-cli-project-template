@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
   routes: [
@@ -20,9 +20,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "me" */ './views/Me')
     },
     {
-      path: "/jsx",
-      name: "jsx",
-      component: ()=> import(/* webpackChunkName: "test" */ './views/test')
+      path: '/jsx',
+      name: 'jsx',
+      component: () => import(/* webpackChunkName: "test" */ './views/test')
     }
   ]
 })
